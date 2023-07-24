@@ -1,12 +1,11 @@
 import React from 'react'
-import { AiFillStar } from "react-icons/ai";
 import { BsFillBagFill } from "react-icons/bs";
 
 function Card({  img,title,star,reviews,prevPrice,newPrice}) {
   return (
     <div>
    <section className="card">
-                <img
+                <img style={{height:"300px"}}
                     src={img}
                     alt="shoes"
                     className="card-img"
